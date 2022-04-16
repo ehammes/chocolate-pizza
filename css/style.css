@@ -13,8 +13,6 @@ header {
   margin-bottom: 30px;
 }
 
-#logo {
-}
 
 #tagline {
   display: inline;
@@ -22,7 +20,7 @@ header {
 
 h1 {
   font-size: 22pt;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Yellowtail', cursive;
   margin: 0px;
 }
 
@@ -74,7 +72,7 @@ h4 {
 #print {
   display: flex;
   flex-direction: row;
-  padding-top: 35px;
+  align-items: flex-end;
 }
 
 p {
@@ -85,4 +83,53 @@ p {
 #pizza {
   display: flex;
   justify-content: center;
+}
+
+#para{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#para p{
+  padding-top: 40px;
+  max-width: 901px;
+  align-self: center;
+}
+
+#background-paper{
+  display: flex;
+  justify-content: center;
+  background-image: url('../img/list-bg.png');
+  align-self: center;
+  max-width: 901px;
+  
+}
+
+#big{
+  display: flex;
+  justify-content: center;
+  
+}
+
+ul{
+  list-style-type: none;
+
+}
+
+#text-decoration{
+  text-decoration: line-through;
+}
+
+#bottom{
+  display: flex;
+  justify-content: center;
+  max-width: 901px;
+  align-self: center;
+
+}
+
+#bio{
+  padding-left: 1em;
+  align-items: center;
 }
